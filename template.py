@@ -41,7 +41,7 @@ def create_project_structure(proj_name: str) -> None:
         Path("config/model.yaml"),
         Path("config/schema.yaml"),
         Path("app.py"),
-        Path("requirements.py"),
+        Path("requirements.txt"),
         Path("Dockerfile"),
         Path("demo.py"),
         Path("setup.py"),
