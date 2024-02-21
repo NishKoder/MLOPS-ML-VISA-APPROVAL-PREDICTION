@@ -61,7 +61,7 @@ def create_project_structure(proj_name: str) -> None:
 
 
 if __name__ == "__main__":
-    project_name = "us-visa-approval-prediction"  # Set your project name here
+    project_name = "us_visa_approval_prediction"  # Set your project name here
     create_project_structure(
         proj_name=project_name
     )
