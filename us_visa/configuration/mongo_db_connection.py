@@ -1,10 +1,10 @@
 import sys
 
-from us_visa_approval_prediction.exception import USvisaException
-from us_visa_approval_prediction.logger import logging
+from us_visa.exception import USvisaException
+from us_visa.logger import logging
 
 import os
-from us_visa_approval_prediction.constants import DATABASE_NAME, MONGODB_URL_KEY
+from us_visa.constants import DATABASE_NAME, MONGODB_URL_KEY
 import pymongo
 import certifi
 

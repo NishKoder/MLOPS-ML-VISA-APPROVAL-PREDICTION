@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "MLOPS-ML-VISA-APPROVAL-PREDICTION"
 AUTHOR_USER_NAME = "NishKoder"
-SRC_REPO = "us_visa_approval_prediction"
+SRC_REPO = "us_visa"
 AUTHOR_EMAIL = "nishant.apple.app@gmail.com"
 
 setuptools.setup(
