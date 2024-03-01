@@ -31,8 +31,9 @@ class USVisaModel:
 
     def predict(self, dataframe: DataFrame) -> DataFrame:
         """
-        Function accepts raw inputs and then transformed raw input using preprocessing_object
-        which guarantees that the inputs are in the same format as the training data
+        Function accepts raw inputs and then transformed raw input using
+        preprocessing_object which guarantees that the inputs
+        are in the same format as the training data
         At last it performs prediction on transformed features
         """
         logging.info("Entered predict method of UTruckModel class")

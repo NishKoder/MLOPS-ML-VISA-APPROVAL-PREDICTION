@@ -2,9 +2,7 @@ import os
 from datetime import date
 
 MONGODB_URL_KEY = "MONGODB_URL"
-
 DATABASE_NAME = "US_VISA"
-
 COLLECTION_NAME = "visa_data"
 
 PIPELINE_NAME: str = "us_visa"
@@ -43,6 +41,7 @@ Data Transformation related constant start with DATA_TRANSFORMATION VAR NAME
 DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
 DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
 DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
+
 
 """
 MODEL TRAINER related constant start with MODEL_TRAINER var name
