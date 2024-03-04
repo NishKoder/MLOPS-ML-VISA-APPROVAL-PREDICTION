@@ -44,3 +44,29 @@ class MongoDBClient:
             logging.info("MongoDB connection successful")
         except Exception as e:
             raise USvisaException(e, sys)
+
+    def get_database_collection(self, collection_name: str):
+        """
+        Get a specified collection from the MongoDB.
+
+        Args:
+            collection_name (str): The name of the collection to retrieve
+                                   from the database.
+
+        Returns:
+            The requested collection object from the MongoDB.
+        """
+        return self.database[collection_name]
+
+    def close_connection(self):
+        """
+        Closes the MongoDB connection.
+
+        :return: None
+        """
+        self.client.close()
+        logging.info("MongoDB connection closed")
+
+    def __del__(self):
+        self.close_connection()
+        logging.info("MongoDB connection closed")
